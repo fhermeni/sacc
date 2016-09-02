@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sacc - Software Architecture for Cloud Computing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>
+                    <span class="light">S</span>oftware
+                    <span class="light">A</span>rchitecture
+                    for
+                    <span class="light">C</span>loud
+                    <span class="light">C</span>omputing
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lectures">Lectures</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Sacc</h1>
+                        <p class="intro-text">Software Architecture for Cloud Computing.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+            <p>
+            This course presents typical software architectures devoted to run scalable applications in public PaaS clouds.
+            </p>
+            <p>We discuss models to store and access data at scale, especially through NoSQL approaches. We then present techniques and patterns to design native cloud applications that can adapt themselves according to the load.</p>
+
+                <a href="sacc-outline.pdf" class="btn btn-default btn-lg btn-wide"><i class="fa fa-picture-o"></i> Pitching the course</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="lectures" class="content-section text-justify">
+        <div class="download-section">
+            <div class="container">
+
+                <div class="row">
+
+                <div class="col-lg-4 col-lg-offset-1">
+                <h3>Introduction to Cloud Computing</h3>
+                <p>Where we talk about its origins, its many facets and features.
+                <a href="sacc-introduction.pdf"><i class="fa fa-picture-o"> </i></a>
+                </p>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-2">
+                <h3>Data over a cloud</h3>
+                <p>Where we discuss and experiment scalable alternatives to relational databases.
+                <a href="https://github.com/fhermeni/sacc/blob/master/dynamodb.md"><i class="fa fa-gears" title="lab session"></i> </a>
+                </p>
+                </div>
+
+                </div>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-1">
+                <h3>Cloud patterns</h3>
+                <p>Where we talk about architecture patterns to design and deploy cloud native applications.
+                <a href="sacc-architecture.pdf"><i class="fa fa-picture-o"></i></a>
+                <a href="https://github.com/fhermeni/sacc/blob/master/eb.md"><i class="fa fa-question-circle" title="Howto-"></i> </a>
+                <a href="https://github.com/fhermeni/eblab"><i class="fa fa-gears" title="Webapp skeleton"></i> </a>
+
+                </p>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-2">
+                <h3>Workshop session</h3>
+                <p>Where everyone present to the class a research paper related to the course.</p>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-1">
+                <h3>Project</h3>
+                <p>Where you develop and deploy a native cloud application over Amazon EC2.
+                <a href="https://github.com/fhermeni/sacc/blob/master/project.md"><i class="fa fa-gears" title="The subject"></i> </a>                                    </p>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-2">
+                <h3>Final exam</h3>
+                <p>I know you know what I am talking about.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center contact-section">
+    <div class="container">
+
+    <div class="row">
+                <div class="col-lg-5 col-lg-offset-1">
+                <h3><a href="https://sites.google.com/site/hermenierfabien/">Fabien Hermenier</a></h3>
+                <img class="img-thumbnail" src="img/fh.jpeg" alt="Fabien Hermenier profile"/>
+                <ul class="text-center list-unstyled">
+                    <li>
+                        <a href="mailto:fabien.hermenier@unice.fr">
+                            <i class="fa fa-envelope"></i>
+                            <span class="network-name">fabien.hermenier@unice.fr</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/fhermeni">
+                            <i class="fa fa-twitter-square"></i>
+                            <span class="network-name">Twitter</span>
+                        </a>
+                    </li>
+
+                </ul>
+                </div>
+
+                <div class="col-lg-5">
+                <h3><a href="https://sites.google.com/site/fabricehuet/">Fabrice Huet</a></h3>
+                <img class="img-thumbnail" src="img/fh2.jpg" alt="Fabrice Huet profile"/>
+                <ul class="text-center list-unstyled">
+                    <li>
+                        <a href="mailto:fabrice.huet@unice.fr">
+                            <i class="fa fa-envelope"></i>
+                            <span class="network-name">fabrice.huet@unice.fr</span>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+
+    </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">Copyright &copy; Fabien Hermenier 2015</div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <!-- Analytics -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47650251-3', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+
+</html>
